@@ -8,10 +8,14 @@ nav{
     max-width: 1200px;
     margin: auto;
     padding: 8px;
+    font-size: 25px;
 
 }
+nav ul li:hover{
+    color:red;
+}
 *{
-    margin:0px;
+    margin-left:3px;
     padding: 0px;
 }
 ul{
@@ -19,11 +23,11 @@ ul{
   justify-content:space-between;
   list-style: none;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
   
 }
 header{
-    background-color:white;
+    background-color:whitesmoke;
 }
 .button{
     background-color:rgb(5, 5, 250);
@@ -33,12 +37,13 @@ header{
     color: white;
     border:1px solid blue;
     border-radius: 10px;
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 4px;
 }
 img{
     max-width: 100%;
     margin-top: 4px;
+    margin-right: 25px;
 }
  .hero{ 
     display:flex;
@@ -54,7 +59,8 @@ img{
 
 }
 .down{
-    margin-top: 150px;
+    margin-top: 90px;
+    
 }
 #go{
     margin-top: 9px;
@@ -72,10 +78,74 @@ div p{
     color: white;
     border:1px solid blue;
     border-radius: 10px;
-    margin-top: 310px;
+    margin-top: 154PX;
 }
 h1{
     color: white;
     font-weight: bold;
     font-size: 100px;
+}
+.met{
+    text-align: center;
+    font-size: 50px;
+    font-weight:bold;
+    font-style: normal;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    
+}
+.card1 ,.card2{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-left:30px;
+gap: 20px;
+}
+#car1,#car2{
+    border: 1px solid rgb(233, 221, 221);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align:left;
+
+}
+#car3,#car4{
+    
+border: 1px solid rgb(233, 221, 221);
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+.blue{
+    color: rgb(77, 77, 213);
+    margin-bottom: 3px;
+    padding-left: 15px;
+    margin-bottom: 3px;
+}
+.gary{
+    color:rgb(105, 102, 102);
+    margin-top: 3px;
+    padding-left: 15px;
+    margin-bottom: 3px;
+}
+.card{
+    text-decoration:double;
+}
+h2{
+    padding-left: 15px;
+}
+.blod,.small{
+    text-align: center;
+}
+.blod{
+    font-size: 90px;
+    font-weight: 40px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+.small{
+    font-size:30px;
+    margin-top: 4px;
 }
