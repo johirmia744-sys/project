@@ -241,3 +241,39 @@ background-color:#c4bded;
     text-align: center;
     color:rgb(12, 136, 95);
 }
+.logo,.fb,.ls{
+    display: flex;
+    justify-content: space-between;
+}
+.ft{
+    margin-top: 100px;
+    background-color: #1E2A32;
+    border:1px solid #1E2A32;
+    border-radius: 10px;
+    height: 100px;
+}
+.logo,.social{
+    margin-top: 8px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+.social{
+
+    margin-right: 50px;
+    
+
+}
+.a{
+    text-align: center;
+    margin-bottom: 9px;
+}
+.bye{
+    margin-left: 50px;
+    font-weight: bold;
+    color: black;
+}
+.ls{
+    display: flex;
+    margin-right:50px;
+    gap: 40px;
+}
