@@ -7,7 +7,7 @@ nav{
     align-items: center;
     max-width: 1200px;
     margin: auto;
-    padding: 8px;
+    padding: 3px;
     font-size: 25px;
 
 }
@@ -18,7 +18,7 @@ nav ul li:hover{
     margin-left:3px;
     padding: 0px;
 }
-ul{
+  .ulu{
   display: flex;
   justify-content:space-between;
   list-style: none;
@@ -66,9 +66,10 @@ img{
     margin-top: 9px;
 
 }
-div p{
+div h4{
     font-size: 30px;
-    color: azure;
+    color:white;
+    margin: 0px 0px 0px 0px;
 }
 #button
 {    background-color:rgb(5, 5, 250);
@@ -78,7 +79,7 @@ div p{
     color: white;
     border:1px solid blue;
     border-radius: 10px;
-    margin-top: 154PX;
+    margin-top: 240PX;
 }
 h1{
     color: white;
@@ -148,4 +149,68 @@ h2{
 .small{
     font-size:30px;
     margin-top: 4px;
+}
+.by{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    max-width: 1200px;
+    margin: auto;
+}
+.c1,.c2,.c3{
+    border: 1px solid green;
+    padding:12px;
+}
+p{
+    margin:2px;
+    font-size: 20px;
+}
+.b{
+    font-weight: bold;
+    font-size: 28px;
+}
+.w{
+    color:rgb(124, 119, 119);
+}
+.c1,.c3{
+    border: 1px solid rgb(180, 177, 177);
+    border-radius: 12px;
+
+}
+.first,.second,.third{
+   
+    background-color: aliceblue;
+    padding: 5px 68px;
+    font-weight: bold;
+    font-size: 17px;
+    color:blue;
+    border:2px solid rgb(5, 5, 233);
+    border-radius: 10px;
+
+    
+}
+.n{
+    color: cadetblue;
+}
+.second{
+    background-color: blue;
+    color: white;
+}
+.third{
+    border: 1px solid black;
+    border-radius: 12px;
+    color: black;
+}
+.bc{
+    color:aliceblue;
+}
+.c2{
+background-color: rgb(24, 23, 23);
+color: white;
+border: 1px solid gray;
+border-radius: 12px;
+}
+.color li::marker{
+    color:blue;
+
 }
