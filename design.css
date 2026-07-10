@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding:0px:
+}
+nav{
+
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 8px;
+}
+ul{
+  display: flex;
+  justify-content:space-between;
+  list-style: none;
+  align-items: center;
+  gap: 50px;
+  
+}
+header{
+    background-color:white;
+}
+.button{
+    background-color:rgb(5, 5, 250);
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border:1px solid blue;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 4px;
+}
+img{
+    max-width: 100%;
+    margin-top: 4px;
+}
